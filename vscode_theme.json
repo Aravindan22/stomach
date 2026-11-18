@@ -1,0 +1,52 @@
+// Qwen Code
+"workbench.colorCustomizations": {
+    "editor.background": "#161821",
+    "editor.foreground": "#D1D5DB",
+    "editorCursor.foreground": "#7AA2F7",
+    "editor.selectionBackground": "#283457",
+    "editor.lineHighlightBackground": "#1A1D27",
+    "editor.lineHighlightBorder": "#1A1D27",
+    "editorLineNumber.foreground": "#3B4261",
+    "editorLineNumber.activeForeground": "#737AA2",
+    "sideBar.background": "#13151C",
+    "sideBar.foreground": "#A0A8C6",
+    "activityBar.background": "#101218",
+    "activityBar.foreground": "#7AA2F7",
+    "tab.activeBackground": "#161821",
+    "tab.activeForeground": "#D1D5DB",
+    "tab.inactiveBackground": "#13151C",
+    "statusBar.background": "#101218",
+    "terminal.background": "#13151C",
+    "terminal.foreground": "#D1D5DB"
+},
+"editor.tokenColorCustomizations": {
+    "comments": "#565F89",
+    "strings": "#9ECE6A",
+    "numbers": "#FF9E64",
+    "keywords": "#BB9AF7",
+    "functions": "#7AA2F7",
+    "variables": "#C0CAF5",
+    "types": "#2AC3DE",
+    "textMateRules": [
+        {
+            "scope": ["markup.heading"],
+            "settings": { "foreground": "#7AA2F7", "fontStyle": "bold" }
+        },
+        {
+            "scope": ["markup.heading.2"],
+            "settings": { "foreground": "#9D7CD8", "fontStyle": "bold" }
+        },
+        {
+            "scope": ["markup.underline.link", "string.other.link"],
+            "settings": { "foreground": "#7AA2F7", "fontStyle": "underline" }
+        },
+        {
+            "scope": ["markup.inline.raw.string", "markup.fenced_code.block"],
+            "settings": { "foreground": "#9ECE6A" }
+        },
+        {
+            "scope": ["markup.bold"],
+            "settings": { "foreground": "#FF9E64", "fontStyle": "bold" }
+        }
+    ]
+}
